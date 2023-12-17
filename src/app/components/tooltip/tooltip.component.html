@@ -1,0 +1,18 @@
+<div class="tooltip" [style.left.px]="x" [style.top.px]="y">
+  <div class="data">
+    <div class="data"><span style="color: red">Red: </span>{{ data.rgbR }}</div>
+    <div class="data">
+      <span style="color: green">Green: </span>{{ data.rgbG }}
+    </div>
+    <div class="data">
+      <span style="color: blue">Blue: </span>{{ data.rgbB }}
+    </div>
+    <div class="data">
+      <span style="opacity: 0.5">Transparency: </span>{{ data.transparent }}
+    </div>
+    <div class="data">
+      <span style="backdrop-filter: brightness(150%)">Brightness: </span
+      >{{ data.shine }}
+    </div>
+  </div>
+</div>

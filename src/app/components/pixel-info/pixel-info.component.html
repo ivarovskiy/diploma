@@ -1,0 +1,26 @@
+<p-table [value]="pixels" [tableStyle]="{ 'min-width': '50rem' }">
+  <ng-template pTemplate="header">
+    <tr>
+      <!-- <th>Number of pixel</th> -->
+      <th>X</th>
+      <th>Y</th>
+      <th>Red</th>
+      <th>Green</th>
+      <th>Blue</th>
+      <th>Transparency</th>
+      <th>Brightness</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-pixels>
+    <tr>
+      <!-- <td>{{ pixels.id }}</td> -->
+      <td>{{ pixels.coordX }}</td>
+      <td>{{ pixels.coordY }}</td>
+      <td>{{ pixels.rgbR }}</td>
+      <td>{{ pixels.rgbG }}</td>
+      <td>{{ pixels.rgbB }}</td>
+      <td>{{ pixels.transparent }}</td>
+      <td>{{ pixels.shine }}</td>
+    </tr>
+  </ng-template>
+</p-table>

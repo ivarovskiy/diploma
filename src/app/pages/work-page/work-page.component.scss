@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+}
+
+.home {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.canvasWrapper {
+    display: flex;
+    flex-direction: column;
+}

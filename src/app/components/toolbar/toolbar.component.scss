@@ -1,0 +1,16 @@
+.toolbar {
+    // width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    padding: 10px;
+}
+
+.size {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 300px;
+}

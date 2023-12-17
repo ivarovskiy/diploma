@@ -1,0 +1,15 @@
+<div class="container">
+  <div *ngIf="!isImageUpload" class="columnFlex">
+    <h2 class="flex">Please, upload the image</h2>
+    <app-upload></app-upload>
+  </div>
+  <div *ngIf="isImageUpload" class="flexRow">
+    <div class="canvasWrapper">
+      <app-canvas></app-canvas>
+      <app-pixel-info></app-pixel-info>
+    </div>
+    <app-toolbar></app-toolbar>
+  </div>
+</div>
+
+<a routerLink="/" class="home">Home</a>
